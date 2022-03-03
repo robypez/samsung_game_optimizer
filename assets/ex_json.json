@@ -1,0 +1,236 @@
+{
+  "pkg_name": "fi.twomenandadog.walkmaster",
+  "pkg_type":"game",
+  "resolution": {
+    "state": "enabled",
+    "type": "dss",
+    "mode_values": {
+      "unmanaged": 1080,
+      "optimized": 720,
+      "power_save": 720,
+      "ultra_power_save": 540
+    }
+  },
+  "dfs": {
+    "state": "forcibly_enabled",
+    "mode_values": {
+      "unmanaged": 60,
+      "optimized": 60,
+      "power_save": 60,
+      "ultra_power_save": 30
+    }
+  },
+  "black_surface": {
+    "state": "enabled"
+  },
+  "boost_resume": {
+    "state": "disabled",
+    "cpu_freq": 2400000,
+    "bus_freq": 1555,
+    "duration": 10
+  },
+  "boost_launch": {
+    "state": "inherited",
+    "cpu_freq": 2400000,
+    "bus_freq": 1555,
+    "duration": 10,
+    "big_turbo_policy": "0",
+    "big_turbo_duration": 16
+  },
+  "boost_touch": {
+    "state": "forcibly_enabled"
+  },
+  "shift_temperature": {
+    "state": "forcibly_enabled",
+    "value": -2
+  },
+  "game_performance_siop": {
+    "state": "forcibly_enabled",
+    "default_mode": 1,
+    "cpu": {
+      "default_level": 3,
+      "mode_values": {
+        "1": "+= 2",
+        "0": "+= 0",
+        "-1": "= -2"
+      }
+    },
+    "gpu": {
+      "default_level": 2,
+      "mode_values": {
+        "1": "+= 2",
+        "0": "+= 0",
+        "-1": "= -2"
+      }
+    }
+  },
+  "game_performance_spa": {
+    "state": "disabled",
+    "mode": 2,
+    "target_power": 0,
+    "ipm_target_pst_default": "530",
+    "ipm_target_pst_high": "530",
+    "ipm_start_wout_trining": "1",
+    "ipm_allow_during_charging": "1",
+    "ipm_revert_SIOP_if_high": "1",
+    "ipm_revert_SIOP_if_over": "5",
+    "ipm_revert_SIOP_if_less": "-3",
+    "enableCpuMinFreqControl": "0",
+    "ipm_bottom_freqs": "1056000000",
+    "ipm_cpu_min_freqs": "1056000000",
+    "ipm_gpu_min_freqs": "2000000",
+    "ipm_cpu_max_freqs": "2056000000",
+    "ipm_gpu_max_freqs": "5000000",
+    "ipm_custom_profile": "20,50,30,60",
+    "ipm_save_power": "0",
+    "ipm_thermal_control": "0",
+    "ipm_target_lrp_default": "420",
+    "ipm_target_lrp_high": "430",
+    "ipm_high_stability_mode": "0",
+    "ipm_allow_ml_off": "0",
+    "ipm_gtlm": "0",
+    "ipm_input_temp_type": "0",
+    "ipm_allow_shutdown": "0",
+    "use_whitelist": false,
+    "siop_modes": [
+      false,
+      true,
+      true
+    ]
+  },
+  "external_sdk": {
+    "state": "forcibly_disabled"
+  },
+  "game_sdk": {
+    "state": "forcibly_enabled",
+    "cpu_min_percent": 1,
+    "gpu_min_percent": 1
+  },
+  "volume_control": {
+    "state": "inherited"
+  },
+  "network_wifi_qos": {
+    "state": "inherited",
+    "tid": 0
+  },
+  "gallery_cmh_stop": {
+    "state": "forcibly_enabled"
+  },
+  "micro_game_bench": {
+    "state": "forcibly_enabled"
+  },
+  "logging_policy": {
+    "state": "forcibly_enabled",
+    "target_group_name": "abc",
+    "game_performance": {
+      "max_session": 6000
+    }
+  },
+  "limit_bg_network": {
+    "state": "disabled"
+  },
+  "aspect_ratio": {
+    "state": "enabled"
+  },
+  "multi_resolution": {
+    "state": "inherited"
+  },
+  "governor_settings": {
+    "state": "enabled",
+    "cs_ta": "string",
+    "cs_fg": "string",
+    "cs_bg": "string",
+    "cs_sb": "string",
+    "cs_an": "string",
+    "cs_cd": "string",
+    "cs_aa": "string",
+    "cs_dft": "string",
+    "st_ta_prefer_perf": "string",
+    "st_ta_prefer_idle": "string",
+    "st_ta_boost": "string",
+    "st_fg_prefer_perf": "string",
+    "st_fg_prefer_idle": "string",
+    "st_fg_boost": "string",
+    "st_bg_prefer_perf": "string",
+    "st_bg_prefer_idle": "string",
+    "st_bg_boost": "string",
+    "little_freqvar_boost": "string",
+    "little_freqvar_up_rate_limit": "string",
+    "little_freqvar_down_rate_limit": "string",
+    "little_freqvar_upscale_ratio": "string",
+    "big_freqvar_boost": "string",
+    "big_freqvar_up_rate_limit": "string",
+    "big_freqvar_down_rate_limit": "string",
+    "big_freqvar_upscale_ratio": "string",
+    "st_ta_gb_interval_us": "string",
+    "st_ta_gb_window_ms": "string",
+    "st_ta_gb_threshold": "string",
+    "st_ta_gb_imbalance_ratio": "string",
+    "st_ta_gb_duration": "string",
+    "st_ta_gb_balance_ratio": "string",
+    "st_fg_gb_interval_us": "string",
+    "st_fg_gb_window_ms": "string",
+    "st_fg_gb_threshold": "string",
+    "st_fg_gb_imbalance_ratio": "string",
+    "st_fg_gb_duration": "string",
+    "st_fg_gb_balance_ratio": "string",
+    "st_bg_gb_interval_us": "string",
+    "st_bg_gb_window_ms": "string",
+    "st_bg_gb_threshold": "string",
+    "st_bg_gb_imbalance_ratio": "string",
+    "st_bg_gb_duration": "string",
+    "st_bg_gb_balance_ratio": "string",
+    "sd_up_threshold": "string",
+    "sd_down_threshold": "string",
+    "sd_min_residency": "string",
+    "sd_bot_overutil": "string",
+    "sd_top_overutil": "string",
+    "st_ta_colocate": "string",
+    "st_ta_enabled": "string",
+    "st_ta_no_override": "string",
+    "st_fg_colocate": "string",
+    "st_fg_enabled": "string",
+    "st_fg_no_override": "string",
+    "st_bg_colocate": "string",
+    "st_bg_enabled": "string",
+    "st_bg_no_override": "string",
+    "sd_boost": "string",
+    "sd_cstate_aware": "string",
+    "sd_group_downmigrate": "string",
+    "sd_group_upmigrate": "string",
+    "sd_initial_task_util": "string",
+    "sd_sync_hint_enable": "string",
+    "sd_upmigrate": "string",
+    "l_hispeed_freq": "string",
+    "l_hispeed_load": "string",
+    "l_pl": "string",
+    "b_hispeed_freq": "string",
+    "b_hispeed_load": "string",
+    "b_pl": "string"
+  },
+  "clear_bg_process": {
+    "state": "forcibly_disabled"
+  },
+  "gfi": {
+    "state": "inherited",
+    "gfi_minimum_version": "1.2.2",
+    "gfi_maximum_version": "999.999.99999",
+    "game_fps_limit": 0,
+    "target_dfs": 60,
+    "mode": "retime",
+    "smart_delay": true,
+    "dfs_offset": {
+      "enabled": false,
+      "value": 10,
+      "smoothness": 0.8,
+      "minimum": 15,
+      "maximum": 60
+    },
+    "gfps_offset": {
+      "enabled": false,
+      "value": 0,
+      "minimum": 15,
+      "maximum": 60
+    }
+  }
+}
